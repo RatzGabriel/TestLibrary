@@ -6,6 +6,7 @@ const dom = (function () {
     const containerCardDiv = document.createElement("div");
     containerCardDiv.classList.add("containerCards");
     const rmvButton = document.createElement("button");
+    rmvButton.innerText = "Remove Book";
     rmvButton.addEventListener("click", removeElement);
 
     createDomElem(book.title, "Title: ", containerCardDiv);
