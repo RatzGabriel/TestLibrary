@@ -15,7 +15,24 @@
         <link rel="stylesheet" href="style.css">
         <title>Library</title>
     </head>
+   
+
+
+
     <body id="body">
+     <nav>
+         <div class="hamburger">
+             <div class="line"></div>
+             <div class="line"></div>
+             <div class="line"></div>
+         </div>
+         <ul class="nav-links">
+             <li><a href="#">Home</a></li>
+             <li><a href="#">Contact</a></li>
+             <li><a href="#">Details</a></li>
+         </ul>
+     </nav>
+       
     
         <div class="difoco heading--text">
             <h1>My Library</h1>
@@ -31,8 +48,8 @@
                     <label class="form" for="Todos">
                         <input class="form-items input is-info " name="title" id="title" type="text" placeholder="title">
                         <input class="form-items input is-info" name="author" id="author" type="text" placeholder="Author">
-                        <input class="form-items input is-info" name="pages" id="pages" type="text" placeholder="Pages">
-                        <input class="form-items input is-info" name="completed" id="completed" type="text" placeholder="Pages completed">
+                        <input class="form-items input is-info" name="pages" id="pages" type="number" placeholder="Pages">
+                        <input class="form-items input is-info" name="completed" id="completed" type="number" placeholder="Pages completed">
                         <input class="form-items input is-info" name="img-url" id="img-url" type="text" placeholder="image https://media.wired.com/photo.jpg">
                     </label>
                     <div class="adding">
@@ -47,7 +64,7 @@
     
             <div class="cardInput"></div>
         </div>
-        <button id="save">Save</button>
+    
     
     
     
